@@ -50,9 +50,9 @@ Result: The top 3 performing cities are San Francisco, Los Angeles, and New York
 # Query 3: Total Sales by Product
 To understand which products are the most popular:
 
-![Screenshot 2024-07-20 at 12 39 57 AM](https://github.com/user-attachments/assets/c43c11b0-c742-427a-8801-7562247744b9)
+![Screenshot 2024-08-07 at 12 47 37 PM](https://github.com/user-attachments/assets/f21ae5c7-cf70-448c-b105-182ddeec2bb0)
 
-Result: Monitors are the most popular product, followed by batteries, reflecting consumer preferences and product trends.
+Result: Apple products such as Macbook Pro and iPhone are paritcularly popular.
 
 # Query 4: Customer with Most Purchases and Sales Amount
 To identify the most frequent buyers:
@@ -70,7 +70,7 @@ Result: Identified customers who interacted the least with the platform, providi
 
 # Insights
 * Sales Concentration: Major sales are concentrated in a few key cities such as San Francisco, Los Angeles, and New York City, highlighting areas with higher purchasing power and frequent transactions.
-* Product Popularity: Monitors and batteries are among the top-selling products, indicating their popularity and demand among consumers.
+* Product Popularity: Apple products are among the top-selling products, indicating their popularity and demand among consumers.
 * Customer Behavior: Certain customers, like the one at 193 Forest St, show a high responsiveness to promotions and deals, making them ideal targets for future marketing campaigns.
 * Engagement Opportunities: Identifying least interactive customers provides a basis for targeted re-engagement strategies to boost their participation and increase overall sales.
 * Trend Analysis: Understanding product trends and shelf life helps in optimizing inventory management and ensuring the availability of popular items.

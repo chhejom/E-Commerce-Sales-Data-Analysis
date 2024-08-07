@@ -2,22 +2,22 @@
 This project showcases my skills in SQL and Google Cloud Console through an in-depth analysis of e-commerce sales data sourced from Kaggle. The dataset covers a one-year period from January 1, 2019, to January 1, 2020. The analysis aims to uncover customer purchasing behaviors, identify top-performing products and regions, and evaluate the effectiveness of promotional strategies. This repository includes SQL scripts, the cleaned dataset, and a detailed report of the findings.
 
 # Tools and Technologies
-Google Cloud Console: Used for dataset creation, table setup, and data loading.
-SQL: Employed for querying and data analysis, enabling the extraction of meaningful insights from the dataset.
+* Google Cloud Console: Used for dataset creation, table setup, and data loading.
+* SQL: Employed for querying and data analysis, enabling the extraction of meaningful insights from the dataset.
 
 # Dataset
 The dataset used in this project includes the following columns:
 
-order_id (INTEGER): Unique identifier for each order.
-product (STRING): Name of the product sold.
-quantity_ordered (INTEGER): Quantity of the product ordered.
-price_each (FLOAT): Price of each unit of the product.
-order_date (TIMESTAMP): Date and time when the order was placed.
-purchase_address (STRING): Address where the order was delivered.
-month (INTEGER): Month of the order date.
-sales (FLOAT): Total sales amount for the order.
-city (STRING): City where the order was delivered.
-hour (STRING): Hour of the day when the order was placed.
+* order_id (INTEGER): Unique identifier for each order.
+* product (STRING): Name of the product sold.
+* quantity_ordered (INTEGER): Quantity of the product ordered.
+* price_each (FLOAT): Price of each unit of the product.
+* order_date (TIMESTAMP): Date and time when the order was placed.
+* purchase_address (STRING): Address where the order was delivered.
+* month (INTEGER): Month of the order date.
+* sales (FLOAT): Total sales amount for the order.
+* city (STRING): City where the order was delivered.
+* hour (STRING): Hour of the day when the order was placed.
 
 # Analysis Queries
 # Query 1: Total Sales

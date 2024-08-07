@@ -19,6 +19,15 @@ The dataset used in this project includes the following columns:
 * city (STRING): City where the order was delivered.
 * hour (STRING): Hour of the day when the order was placed.
 
+# Extraction
+I utilized Google Cloud Console to perform the analysis by creating the dataset and table, and subsequently loading the data into the table
+![Screenshot 2024-07-19 at 10 04 33 PM](https://github.com/user-attachments/assets/b9165646-8c5e-4d23-8ef2-b6ce49489e68)
+![Screenshot 2024-07-19 at 10 05 21 PM (2)](https://github.com/user-attachments/assets/9cff6f90-fb1c-4724-9fed-67ff34d49f32)
+
+Google Cloud offers two options for creating a table. The first option  is to use the Auto Detect feature, which automatically infers the table schema from the CSV file, making it a quick and convenient method for straightforward datasets. The second option invloves manually defining the table schema, which provides more control and precision. This method requires specifying each field's name, data type, and mode (e.g., NULLABLE, REQUIRED, REPEATED).
+
+For this project, I opted to manually enter the schema to ensure accuracy and alignment with the analysis requirements. O began by giving the table a descriptive name and defining each column's propoerties. For instance, I specified `order_id` as an INTEGER, `product` as a STRING, `quantity_ordered` as an INTEGER and so on. This manual approach allowed me to tailor the table structure precisely to the dataset's needs and ensure that all data types were correctly assigned, facilitating accurate analysis and query performance. By carefully setting up the table schema, I laid a solid foundation for the subsequent data analysis using queries in Google Console.
+
 # Analysis Queries
 # Query 1: Total Sales
 To determine the overall sales performance:

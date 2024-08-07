@@ -21,36 +21,49 @@ The dataset used in this project includes the following columns:
 
 # Extraction
 I utilized Google Cloud Console to perform the analysis by creating the dataset and table, and subsequently loading the data into the table
+
 ![Screenshot 2024-07-19 at 10 04 33 PM](https://github.com/user-attachments/assets/b9165646-8c5e-4d23-8ef2-b6ce49489e68)
-![Screenshot 2024-07-19 at 10 05 21 PM (2)](https://github.com/user-attachments/assets/9cff6f90-fb1c-4724-9fed-67ff34d49f32)
+
+![Screenshot 2024-07-19 at 10 05 21 PM (2)](https://github.com/user-attachments/assets/50ca0b8e-c4b9-49c3-b779-01e5a60fafd2)
 
 Google Cloud offers two options for creating a table. The first option  is to use the Auto Detect feature, which automatically infers the table schema from the CSV file, making it a quick and convenient method for straightforward datasets. The second option invloves manually defining the table schema, which provides more control and precision. This method requires specifying each field's name, data type, and mode (e.g., NULLABLE, REQUIRED, REPEATED).
 
 For this project, I opted to manually enter the schema to ensure accuracy and alignment with the analysis requirements. O began by giving the table a descriptive name and defining each column's propoerties. For instance, I specified `order_id` as an INTEGER, `product` as a STRING, `quantity_ordered` as an INTEGER and so on. This manual approach allowed me to tailor the table structure precisely to the dataset's needs and ensure that all data types were correctly assigned, facilitating accurate analysis and query performance. By carefully setting up the table schema, I laid a solid foundation for the subsequent data analysis using queries in Google Console.
 
+![Screenshot 2024-07-19 at 10 08 31 PM](https://github.com/user-attachments/assets/acb24cd4-ad8d-4572-abd6-79e352776934)
+
 # Analysis Queries
 # Query 1: Total Sales
 To determine the overall sales performance:
+
+
 
 Result: The total sales of this dataset are $34 Million.
 
 # Query 2: Total Sales by City
 To identify the top-performing cities:
 
+![Screenshot 2024-07-20 at 1 18 00 AM](https://github.com/user-attachments/assets/9899637a-05fb-4ac0-80d4-0da2339e09a4)
+
 Result: The top 3 performing cities are San Francisco, Los Angeles, and New York City, indicating higher purchasing power and frequent purchases in these urban areas.
 
 # Query 3: Total Sales by Product
 To understand which products are the most popular:
+
+![Screenshot 2024-07-20 at 12 39 57 AM](https://github.com/user-attachments/assets/c43c11b0-c742-427a-8801-7562247744b9)
 
 Result: Monitors are the most popular product, followed by batteries, reflecting consumer preferences and product trends.
 
 # Query 4: Customer with Most Purchases and Sales Amount
 To identify the most frequent buyers:
 
+![Screenshot 2024-07-20 at 1 33 42 AM](https://github.com/user-attachments/assets/7321cdda-bf74-404d-b047-1efa108821eb)
+
 Result: The address 193 Forest St made the most purchases during the reporting period, indicating a highly responsive customer to deals and promotions.
 
 # Query 5: Least Interactive Customers
 To find customers with minimal interaction:
+
 
 Result: Identified customers who interacted the least with the platform, providing opportunities to re-engage them through targeted marketing efforts.
 

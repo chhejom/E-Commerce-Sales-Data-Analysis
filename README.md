@@ -36,7 +36,7 @@ For this project, I opted to manually enter the schema to ensure accuracy and al
 # Query 1: Total Sales
 To determine the overall sales performance:
 
-
+![Screenshot 2024-08-07 at 12 39 29 PM](https://github.com/user-attachments/assets/308d1473-a87b-4dd0-8a2e-5adf20ee538c)
 
 Result: The total sales of this dataset are $34 Million.
 
@@ -57,22 +57,23 @@ Result: Monitors are the most popular product, followed by batteries, reflecting
 # Query 4: Customer with Most Purchases and Sales Amount
 To identify the most frequent buyers:
 
-![Screenshot 2024-07-20 at 1 33 42 AM](https://github.com/user-attachments/assets/7321cdda-bf74-404d-b047-1efa108821eb)
+![Screenshot 2024-08-07 at 12 37 30 PM](https://github.com/user-attachments/assets/91c5079f-dfdc-4227-92f6-646e29e4df03)
 
 Result: The address 193 Forest St made the most purchases during the reporting period, indicating a highly responsive customer to deals and promotions.
 
 # Query 5: Least Interactive Customers
 To find customers with minimal interaction:
 
+![Screenshot 2024-08-07 at 12 38 28 PM](https://github.com/user-attachments/assets/db434031-ec64-4a03-b508-d21998601fc2)
 
 Result: Identified customers who interacted the least with the platform, providing opportunities to re-engage them through targeted marketing efforts.
 
 # Insights
-
-Sales Concentration: Major sales are concentrated in a few key cities such as San Francisco, Los Angeles, and New York City, highlighting areas with higher purchasing power and frequent transactions.
-Product Popularity: Monitors and batteries are among the top-selling products, indicating their popularity and demand among consumers.
-Customer Behavior: Certain customers, like the one at 193 Forest St, show a high responsiveness to promotions and deals, making them ideal targets for future marketing campaigns.
-Engagement Opportunities: Identifying least interactive customers provides a basis for targeted re-engagement strategies to boost their participation and increase overall sales.
-Trend Analysis: Understanding product trends and shelf life helps in optimizing inventory management and ensuring the availability of popular items.
+* Sales Concentration: Major sales are concentrated in a few key cities such as San Francisco, Los Angeles, and New York City, highlighting areas with higher purchasing power and frequent transactions.
+* Product Popularity: Monitors and batteries are among the top-selling products, indicating their popularity and demand among consumers.
+* Customer Behavior: Certain customers, like the one at 193 Forest St, show a high responsiveness to promotions and deals, making them ideal targets for future marketing campaigns.
+* Engagement Opportunities: Identifying least interactive customers provides a basis for targeted re-engagement strategies to boost their participation and increase overall sales.
+* Trend Analysis: Understanding product trends and shelf life helps in optimizing inventory management and ensuring the availability of popular items.
+  
 # Conclusion
-This project showcases the effective use of SQL for performing a comprehensive sales analysis. The insights derived from the dataset can aid in strategizing sales promotions, understanding market trends, and improving customer engagement. SQL proves to be a powerful tool for data analysis, enabling businesses to make informed decisions based on accurate data insights.
+This marks the end of my analysis. This project showcases the effective use of SQL for performing a comprehensive sale analysis. The insights derived from the dataset can aid in strategizing sales promotions, understanding market trends, and improving customer engagement. SQL proves to be a powerful tool for data analysis, enabling businesses to make informed decision based on accurate data insights.

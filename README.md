@@ -52,7 +52,7 @@ To understand which products are the most popular:
 
 ![Screenshot 2024-08-07 at 12 47 37 PM](https://github.com/user-attachments/assets/f21ae5c7-cf70-448c-b105-182ddeec2bb0)
 
-Result: Apple products such as Macbook Pro and iPhone are paritcularly popular.
+Result: Apple products such as Macbook Pro and iPhone are particularly popular.
 
 # Query 4: Customer with Most Purchases and Sales Amount
 To identify the most frequent buyers:
